@@ -1,0 +1,145 @@
+/*=========================Home Page Content Style Sheet========================*/
+
+#logo{
+		
+		float:left;
+	}
+
+h1{
+    color:#000;
+    font-size:300%;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin:0px;
+	text-shadow: 2px 2px 6px silver,yellow 0 0 20px, 2px  2px 8px darkred;
+        
+        position:relative;
+        top:50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform:translateY(-50%);
+        transform: translateY(-50%);
+        }
+			
+
+#nav ul {background-color:darkcyan;
+        background: linear-gradient(to top right,darkcyan, rgb(59, 15, 70));
+        padding:20px;
+        margin:10px 40px;
+        list-style-type:none;
+        text-align:center;
+        border-radius: 5px;
+        }
+
+#nav ul li a{
+            text-decoration:none;
+            padding:0.5em 1.1em;
+            color:#fff;
+            background-color: #000;
+            font-family:Arial;
+            line-height: 2.5em;
+            border:2px inset yellowgreen;
+            border-radius: 5px;
+            }
+
+#nav ul li a:hover{
+					color:#000;
+					background-color: silver;
+					border:2px inset yellowgreen;
+					font-weight: bold;
+					}
+
+
+#book{
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		list-style-type:square;
+		line-height: 1.5em;
+		color:#580000;
+		}
+
+#hedwig{
+		width:30%;
+		height:30%;
+		border:2px outset indigo;
+		border-radius: 8px;
+		opacity: 1.0;
+		transition: opacity 0.8s ease-in-out;
+		margin:5px;  
+		}
+
+#hedwig:hover{
+				opacity: 0.7;
+			}
+
+.fredy{ width:296px;
+		background-color:lightcyan;
+		padding:2px;
+		border-radius: 8px;
+       }
+
+#twinsimg{
+            width: 98%;
+            height:70%;
+            border:2px outset indigo;
+            border-radius: 8px; 
+            clear:both;          
+		}
+
+#para1{  
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		color:darkred;
+		text-decoration: none;
+    }
+
+
+#para1 a:hover{
+				color:purple;
+				}
+
+#para1 a:visited{
+					color:darkgreen;
+					}
+
+img{
+    display: inline;;
+	}
+
+#img1{
+		width:980px;
+		height:500px;
+		border:5px inset darkmagenta;
+		border-radius: 8px;
+		}
+
+.para2{
+		text-indent: 100px;
+		width:650px;
+		float:right;
+		text-align:justify;
+		line-height: 2em;
+		}
+
+.para3{
+		font-family: 'Times New Roman', Times, serif;
+		font-style: italic;
+		color:rgb(16, 78, 3);
+		font-size:110%;
+		font-weight: bold;
+		}
+
+    
+#footer ul li{
+				display:inline;
+				}
+
+#footer ul li a{
+				text-decoration:none;
+				padding:0.2em 2em;
+				color:#fff;
+				font-family:Arial;
+				}
+
+#footer ul li a:hover{
+						color:#000;
+						background-color: silver;
+						}
