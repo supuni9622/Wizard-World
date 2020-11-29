@@ -1,0 +1,60 @@
+/*==============Layout Style Sheet====================================*/
+
+body{
+        background-color: darkcyan;
+        margin:0px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size:14px;
+        background: linear-gradient(to bottom right,darkcyan, darkblue);   /*Shade the background*/
+        background-repeat:no-repeat;
+    }
+
+#header{
+        background-image: url(002.jpg); /*Use image as background*/
+        margin:10px;
+        height:90px;
+        border-radius: 5px;
+        }
+
+.main{
+        background-color:rgb(10, 240, 240);
+        background: linear-gradient(to bottom right,rgb(6, 253, 232), rgb(24, 0, 20));
+        margin-left:10px;
+        margin-right:320px;
+        margin-top:10px;
+        margin-bottom:10px;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 110%;
+        text-align:justify;
+        }
+
+.sidebar{background-color:#e5e4d7;
+         background: linear-gradient(to top left,#e5e4d7, rgb(176, 119, 190));
+         margin-top:0px;
+         margin-right:10px;
+         margin-bottom:10px;
+         margin-left:10px;
+         border-radius: 5px;
+         padding: 20px;
+         font-size: 105%;
+         float:right; /*float to right side*/
+         width:260px;
+         clear: right; /*to be saparate all blocks*/
+        }
+
+#footer{
+	background-color:rgb(3, 3, 56);
+	margin:10px;
+	height:60px;
+	clear:both;
+	border-radius: 5px;
+	color:#efe5d0;
+	text-align:center;
+	padding:15px;
+	font-size:90%;
+	}
+
+    
+
+

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+
+div.img img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0.1)} 
+    to {transform:scale(1)}
+}
+
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center;color:white;font-weight:bold;">Image Gallery</h2>
+
+<div class="responsive">
+  <div class="img">
+      <img src="0201.jpg" alt="Happy Wizard Family" width="300" height="200">
+    <div class="desc">Happy Wizard Family</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <img src="0203.jpg" alt="Dining at Three Boomstick" width="300" height="200">
+    <div class="desc">Dining at Three Boomstick</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0204.jpg" alt="Magical Cottage" width="300" height="200">
+    <div class="desc">Magical Cottage</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0205.jpg" alt="Kingscross Station" width="300" height="200">
+    <div class="desc">Kingscross Station</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0206.jpg" alt="Riding with Hagrid" width="300" height="200">
+    <div class="desc">Riding with Hagrid</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0207.jpg" alt="Hogwarts Castle" width="300" height="200">
+    <div class="desc">Hogwarts Castle</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0208.jpg" alt="Diagon Alley" width="300" height="200">
+    <div class="desc">Diagon Alley</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0209.jpg" alt="Hogwarts School" width="300" height="200">
+    <div class="desc">Hogwarts School</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0210.jpg" alt="Fun Activites" width="300" height="200">
+    <div class="desc">Fun Activites</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0212.jpg" alt="Wizard Restuarent" width="300" height="200">
+    <div class="desc">Wizard Restuarent</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0214.jpg" alt="Meet Celebris" width="300" height="200">
+    <div class="desc">Meet Celebris</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0215.jpg" alt="Rock in Wizard World" width="300" height="200">
+    <div class="desc">Rock in Wizard World</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0216.jpg" alt="Jorney around Hogsmead in the Knight Bus" width="300" height="200">
+    <div class="desc">Jorney around Hogsmead in the Knight Bus</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0217.jpg" alt="Halloween with Pumpking" width="300" height="200">
+    <div class="desc">Halloween with Pumpking</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0218.jpg" alt="Wizard Water world" width="300" height="200">
+    <div class="desc">Wizard Water world</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0219.jpg" alt="Halloween Night" width="300" height="200">
+    <div class="desc">Halloween Night</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0220.jpg" alt="Buying Sweets at Honeydukes" width="300" height="200">
+    <div class="desc">Buying Sweets at Honeydukes</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0222.jpg" alt="Prof.Dambledor's favorite sweets pack" width="300" height="200">
+    <div class="desc">Prof.Dambledor's favorite sweets pack</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0225.jpg" alt="Dinner meal" width="300" height="200">
+    <div class="desc">Dinner meal</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="0300.jpg" alt="Wizard Roller Coaster" width="300" height="200">
+    <div class="desc">Wizard Roller Coaster</div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+// Get all images and insert the clicked image inside the modal
+// Get the content of the image description and insert it inside the modal image caption
+var images = document.getElementsByTagName('img');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+var i;
+for (i = 0; i < images.length; i++) {
+   images[i].onclick = function(){
+       modal.style.display = "block";
+       modalImg.src = this.src;
+       modalImg.alt = this.alt;
+       captionText.innerHTML = this.nextElementSibling.innerHTML;
+   }
+}
+</script>
+
+<img src="001.jpg" alt="Planets" usemap="#planetmap" style="width:145px;height:126px;">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+
+</body>
+
+

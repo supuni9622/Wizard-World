@@ -1,0 +1,104 @@
+.sidebar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border:3px inset darkblue;
+
+
+}
+
+.content{
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+
+
+}
+
+@media screen and (max-width: 600px){
+    .sidebar {
+        width:100%;
+        height:auto;
+        position:relative;
+    }
+   
+    div.content {margin-left:0;}
+}
+
+.ticket{
+            size:100%;
+            padding-top:0px;
+            margin-bottom:30px;
+            border:3px inset darkblue;
+            border-radius: 6px;
+            background-color:rgb(241, 239, 239);
+}
+
+.form1{
+        padding:10px;
+        background-color:rgb(120, 193, 218);
+        border-radius: 20px;
+        line-height: 25px;
+        text-align: left;
+        margin-right: 600px;
+        margin-left:100px;
+        font-weight: bold;
+}
+
+.ticket a{
+        text-decoration:none;
+        padding:0.8em 2em;
+        color:#fff;
+        background-color: #000;
+        font-family:Arial;
+        text-align: ceneter;
+        margin-left: 400px;
+        border-radius: 5px;
+        }
+
+.ticket a:hover{
+            color:rgb(134, 223, 235);
+            background-color: rgb(78, 2, 78);
+}
+
+.ticket1{
+    size:100%;
+    padding-top:0px;
+    margin-bottom:30px;
+    border:3px inset darkblue;
+    border-radius: 6px;
+    background-color:rgb(241, 239, 239);
+}
+
+.button {
+    background-color: rgb(182, 235, 197);
+    border: 2px outset darkslateblue;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    margin: 20px 300px 20px 100px;
+    width: 350px;
+    
+
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+}
+
+.packbut:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.packbut a{
+            text-decoration: none;
+}
+
